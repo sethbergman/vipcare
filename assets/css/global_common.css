@@ -1,0 +1,103 @@
+/* ---------- begin skin selector ---------- */
+
+
+a[id="show_selector"] {background:#000; border-radius:6px; box-shadow:2px 2px 0 rgba(0,0,0,0.25); color:#fff; padding:0 10px; position:absolute; top:10px; left:12px; min-width:76px; height:36px; line-height:36px; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:center; text-decoration:none; z-index:9999;}
+a[id="show_selector"]:hover {color:#898989;}
+
+div[id$="_selector"] {background:url(/css/skins/global/images/skin_selector_bg.png?v=4.14.6.20?v=4.14.6.20); color:#fff; display:none; padding:20px; position:absolute; top:0; left:0; min-width:800px; font-family:Arial, Helvetica, sans-serif; font-size:12px; z-index:9999;}
+div[id$="_selector"] a {color:#fff; text-align:center;}
+div[id$="_selector"] a:hover {color:#898989;}
+div[id$="_selector"] a:first-child {position:absolute; top:30px; right:35px;}
+div[id$="_selector"] p ~ a {background-repeat:no-repeat; color:#fff; display:inline-block; margin:15px; padding-top:136px; width:100px; height:12px; text-decoration:none;}
+div[id$="_selector"] p {margin:10px; font-size:14px;}
+
+
+/* ---------- begin live chat ---------- */
+
+
+div[id$="chat"] {position:absolute; top:50px; left:12px; z-index:999;}
+div[id$="chat"] a {background:#000; border-radius:6px; box-shadow:2px 2px 0 rgba(0,0,0,0.25); color:#fff; display:block; width:96px; height:36px; line-height:36px; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-align:center; text-decoration:none;}
+div[id$="chat"] a:hover {color:#898989;}
+div[id$="chat"] a strong {font-weight:normal;}
+
+/* ---------- begin custom form ---------- */
+
+
+form[id^="custom"] h3 {margin-bottom:10px;}
+
+form[id^="custom"] #captcha + div {display:block;}
+form[id^="custom"] div {margin-bottom:10px; display:inline-block;}
+form[id^="custom"] div.object {margin-bottom:10px; clear:both;}
+form[id^="custom"] div label {display:inline-block; padding-right:10px; width:190px; vertical-align:top;}
+
+form[id^="custom"] input[type="text"] {border:1px solid #c1cad2; padding:2px 4px; width:200px;}
+form[id^="custom"] input[id^="verification"] {width:142px;}
+form[id^="custom"] select {border:1px solid #c1cad2; padding:2px; width:210px;}
+form[id^="custom"] textarea {border:1px solid #c1cad2; padding:2px 4px; width:200px; height:100px; overflow:auto;}
+
+form[id^="custom"] div.options {width:200px; line-height:13px;}
+form[id^="custom"] div.options input[type="checkbox"],
+form[id^="custom"] div.options input[type="radio"] {margin-right:4px; margin-bottom:10px; width:13px; height:13px; vertical-align:top;}
+form[id^="custom"] div.options label {width:165px;}
+
+form[id^="custom"] div.upldBtn input {width:210;}
+
+form[id^="custom"] div.customCaptcha div {display: block;}
+form[id^="custom"] div.customCaptcha .verify img {margin:0 0 0 205px;}
+form[id^="custom"] div.customCaptcha input[type="submit"] {margin-left:205px;}
+
+form[id^="custom"] input[type="submit"] {cursor:pointer; display:block; margin:10px 0; padding:0 6px;}
+
+/* ---------- begin slideshow ---------- */
+
+div.slideshow_attraction div.slideshow ul{
+	margin: 0;
+	padding: 0;
+}
+
+div.slideshow_attraction div.slideshow ul li{
+	margin: 0;
+	padding: 0;
+}
+
+div.slideshow_attraction div.slideshow ul li a img{
+	margin: auto;
+}
+
+/* ---------- begin default content images ---------- */
+
+img.dfltCntImgRt {border-radius:3px; margin:18px 0 18px 18px; float:right;}
+img.dfltCntImgRt:first-child {margin-top:0;}
+
+img.dfltCntImgLt {border-radius:3px; margin:18px 18px 18px 0; float:left;}
+img.dfltCntImgLt:first-child {margin-top:0;}
+
+/* ---------- begin request appointment button ---------- */
+
+a.reqAptBtn {background:#fba500; border-radius:12px; box-shadow:inset 0 0 12px 2px #e55b00, 0 2px 2px rgba(0,0,0,0.35); color:#fff!important; display:table; margin:0 auto; padding:0 12px; height:24px; line-height:24px; font-weight:bold; text-decoration:none; text-shadow:0 1px 1px #e55b00;}
+
+/* ---------- begin honeypot and timecheck fields -------- */
+/* -- the div.verify_required text field should never display --*/
+form[id^="custom"] div.verify_required,
+div.verify_required{
+    display:none !important;
+}
+
+form[id^="custom"] div.no_captcha_submit{
+    display: block;
+}
+
+form[id^="custom"] div.no_captcha_submit input[type="submit"]{
+    margin: 0;
+}
+
+p.form_error_message{
+    font-size: 12px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+body{
+	color:#000
+}

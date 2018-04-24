@@ -1,0 +1,53 @@
+{
+  "name": "vipcare",
+  "version": "1.2.0",
+  "description": "Based on the Casper theme.",
+  "keywords": [
+    "ghost",
+    "theme",
+    "vipcare"
+  ],
+  "bugs": "https://github.com/sethbergman/vipcare/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Seth Bergman",
+    "email": "seth.atxwebs@gmail.com",
+    "url": "https://blog.vipchiropractic.care"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sethbergman/vipcare.git"
+  },
+  "config": {
+    "posts_per_page": 50
+  },
+  "devDependencies": {
+    "autoprefixer": "6.3.6",
+    "cssnano": "^3.10.0",
+    "gulp": "3.9.1",
+    "gulp-livereload": "3.8.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-postcss": "6.1.1",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "4.3.8",
+    "gulp-zip": "^4.1.0",
+    "postcss-color-function": "2.0.1",
+    "postcss-custom-properties": "5.0.1",
+    "postcss-easy-import": "1.0.1"
+  },
+  "engines": {
+    "ghost": ">=1.2.0"
+  },
+  "gpm": {
+    "type": "theme",
+    "categories": [
+      "Minimal",
+      "Magazine"
+    ]
+  },
+  "screenshots": {
+    "desktop": "assets/screenshot-desktop.jpg",
+    "mobile": "assets/screenshot-mobile.jpg"
+  }
+}
